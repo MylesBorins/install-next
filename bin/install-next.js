@@ -16,4 +16,4 @@ limitations under the License.
 */
 import { install } from 'install-next';
 
-await install(process.argv.slice(2));
+process.exitCode = await install(process.argv.slice(2));
