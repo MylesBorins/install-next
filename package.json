@@ -1,6 +1,6 @@
 {
   "name": "install-next",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "",
   "exports": "./lib/index.js",
   "bin": "./bin/install-next.js",
