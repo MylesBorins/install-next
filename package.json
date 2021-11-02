@@ -1,0 +1,21 @@
+{
+  "name": "install-next",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./lib/index.js",
+  "bin": "./bin/install-next.js",
+  "scripts": {
+    "test": "eslint */*.js"
+  },
+  "keywords": [],
+  "author": "Myles Borins <mylesborins@github.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "tap": "^15.0.10"
+  },
+  "type": "module",
+  "dependencies": {
+    "which": "^2.0.2"
+  }
+}
